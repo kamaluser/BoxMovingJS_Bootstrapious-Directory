@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn-outline-color {
+    color: #84757d;
+    border-color: #84757d;
+}
+
+.btn-outline-color:hover {
+    color: #fff;
+    background-color: #84757d;
+    border-color: #84757d;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image {
+    background-image: url(https://d19m59y37dris4.cloudfront.net/directory/2-0-2/img/photo/photo-1497436072909-60f360e1d4b1.jpg);
+    background-size: cover;
+}
+
+.exc {
+    color: red;
+}
+
+.error-message {
+    color: red;
+}
+
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: rgb(128, 128, 229);
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.toast.show {
+    display: block;
+}
